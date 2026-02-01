@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B88ABB8D2F3015470013E3F7 /* NikeStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABB8C2F3015470013E3F7 /* NikeStoreApp.swift */; };
+		B88ABB8F2F3015470013E3F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABB8E2F3015470013E3F7 /* ContentView.swift */; };
+		B88ABB912F30154D0013E3F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88ABB902F30154D0013E3F7 /* Assets.xcassets */; };
+		B88ABB942F30154D0013E3F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88ABB932F30154D0013E3F7 /* Preview Assets.xcassets */; };
+		B88ABB9E2F30154E0013E3F7 /* NikeStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABB9D2F30154E0013E3F7 /* NikeStoreTests.swift */; };
+		B88ABBA82F30154E0013E3F7 /* NikeStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABBA72F30154E0013E3F7 /* NikeStoreUITests.swift */; };
+		B88ABBAA2F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABBA92F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B88ABB9A2F30154E0013E3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88ABB812F3015470013E3F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88ABB882F3015470013E3F7;
+			remoteInfo = NikeStore;
+		};
+		B88ABBA42F30154E0013E3F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B88ABB812F3015470013E3F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B88ABB882F3015470013E3F7;
+			remoteInfo = NikeStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B88ABB892F3015470013E3F7 /* NikeStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88ABB8C2F3015470013E3F7 /* NikeStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreApp.swift; sourceTree = "<group>"; };
+		B88ABB8E2F3015470013E3F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B88ABB902F30154D0013E3F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B88ABB932F30154D0013E3F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B88ABB992F30154E0013E3F7 /* NikeStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88ABB9D2F30154E0013E3F7 /* NikeStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreTests.swift; sourceTree = "<group>"; };
+		B88ABBA32F30154E0013E3F7 /* NikeStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B88ABBA72F30154E0013E3F7 /* NikeStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreUITests.swift; sourceTree = "<group>"; };
+		B88ABBA92F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B88ABB862F3015470013E3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88ABB962F30154E0013E3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88ABBA02F30154E0013E3F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B88ABB802F3015470013E3F7 = {
+			isa = PBXGroup;
+			children = (
+				B88ABB8B2F3015470013E3F7 /* NikeStore */,
+				B88ABB9C2F30154E0013E3F7 /* NikeStoreTests */,
+				B88ABBA62F30154E0013E3F7 /* NikeStoreUITests */,
+				B88ABB8A2F3015470013E3F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B88ABB8A2F3015470013E3F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B88ABB892F3015470013E3F7 /* NikeStore.app */,
+				B88ABB992F30154E0013E3F7 /* NikeStoreTests.xctest */,
+				B88ABBA32F30154E0013E3F7 /* NikeStoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B88ABB8B2F3015470013E3F7 /* NikeStore */ = {
+			isa = PBXGroup;
+			children = (
+				B88ABB8C2F3015470013E3F7 /* NikeStoreApp.swift */,
+				B88ABB8E2F3015470013E3F7 /* ContentView.swift */,
+				B88ABB902F30154D0013E3F7 /* Assets.xcassets */,
+				B88ABB922F30154D0013E3F7 /* Preview Content */,
+			);
+			path = NikeStore;
+			sourceTree = "<group>";
+		};
+		B88ABB922F30154D0013E3F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B88ABB932F30154D0013E3F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B88ABB9C2F30154E0013E3F7 /* NikeStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				B88ABB9D2F30154E0013E3F7 /* NikeStoreTests.swift */,
+			);
+			path = NikeStoreTests;
+			sourceTree = "<group>";
+		};
+		B88ABBA62F30154E0013E3F7 /* NikeStoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B88ABBA72F30154E0013E3F7 /* NikeStoreUITests.swift */,
+				B88ABBA92F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift */,
+			);
+			path = NikeStoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B88ABB882F3015470013E3F7 /* NikeStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88ABBAD2F30154E0013E3F7 /* Build configuration list for PBXNativeTarget "NikeStore" */;
+			buildPhases = (
+				B88ABB852F3015470013E3F7 /* Sources */,
+				B88ABB862F3015470013E3F7 /* Frameworks */,
+				B88ABB872F3015470013E3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NikeStore;
+			productName = NikeStore;
+			productReference = B88ABB892F3015470013E3F7 /* NikeStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B88ABB982F30154E0013E3F7 /* NikeStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88ABBB02F30154E0013E3F7 /* Build configuration list for PBXNativeTarget "NikeStoreTests" */;
+			buildPhases = (
+				B88ABB952F30154E0013E3F7 /* Sources */,
+				B88ABB962F30154E0013E3F7 /* Frameworks */,
+				B88ABB972F30154E0013E3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88ABB9B2F30154E0013E3F7 /* PBXTargetDependency */,
+			);
+			name = NikeStoreTests;
+			productName = NikeStoreTests;
+			productReference = B88ABB992F30154E0013E3F7 /* NikeStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B88ABBA22F30154E0013E3F7 /* NikeStoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B88ABBB32F30154E0013E3F7 /* Build configuration list for PBXNativeTarget "NikeStoreUITests" */;
+			buildPhases = (
+				B88ABB9F2F30154E0013E3F7 /* Sources */,
+				B88ABBA02F30154E0013E3F7 /* Frameworks */,
+				B88ABBA12F30154E0013E3F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B88ABBA52F30154E0013E3F7 /* PBXTargetDependency */,
+			);
+			name = NikeStoreUITests;
+			productName = NikeStoreUITests;
+			productReference = B88ABBA32F30154E0013E3F7 /* NikeStoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B88ABB812F3015470013E3F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B88ABB882F3015470013E3F7 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B88ABB982F30154E0013E3F7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B88ABB882F3015470013E3F7;
+					};
+					B88ABBA22F30154E0013E3F7 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = B88ABB882F3015470013E3F7;
+					};
+				};
+			};
+			buildConfigurationList = B88ABB842F3015470013E3F7 /* Build configuration list for PBXProject "NikeStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B88ABB802F3015470013E3F7;
+			productRefGroup = B88ABB8A2F3015470013E3F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B88ABB882F3015470013E3F7 /* NikeStore */,
+				B88ABB982F30154E0013E3F7 /* NikeStoreTests */,
+				B88ABBA22F30154E0013E3F7 /* NikeStoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B88ABB872F3015470013E3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88ABB942F30154D0013E3F7 /* Preview Assets.xcassets in Resources */,
+				B88ABB912F30154D0013E3F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88ABB972F30154E0013E3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88ABBA12F30154E0013E3F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B88ABB852F3015470013E3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88ABB8F2F3015470013E3F7 /* ContentView.swift in Sources */,
+				B88ABB8D2F3015470013E3F7 /* NikeStoreApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88ABB952F30154E0013E3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88ABB9E2F30154E0013E3F7 /* NikeStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B88ABB9F2F30154E0013E3F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88ABBA82F30154E0013E3F7 /* NikeStoreUITests.swift in Sources */,
+				B88ABBAA2F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B88ABB9B2F30154E0013E3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88ABB882F3015470013E3F7 /* NikeStore */;
+			targetProxy = B88ABB9A2F30154E0013E3F7 /* PBXContainerItemProxy */;
+		};
+		B88ABBA52F30154E0013E3F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B88ABB882F3015470013E3F7 /* NikeStore */;
+			targetProxy = B88ABBA42F30154E0013E3F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B88ABBAB2F30154E0013E3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B88ABBAC2F30154E0013E3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B88ABBAE2F30154E0013E3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NikeStore/Preview Content\"";
+				DEVELOPMENT_TEAM = SN97M28K4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nieulssss.NikeStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B88ABBAF2F30154E0013E3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NikeStore/Preview Content\"";
+				DEVELOPMENT_TEAM = SN97M28K4F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nieulssss.NikeStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B88ABBB12F30154E0013E3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN97M28K4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nieulssss.NikeStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NikeStore";
+			};
+			name = Debug;
+		};
+		B88ABBB22F30154E0013E3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN97M28K4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nieulssss.NikeStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NikeStore.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NikeStore";
+			};
+			name = Release;
+		};
+		B88ABBB42F30154E0013E3F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN97M28K4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nieulssss.NikeStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeStore;
+			};
+			name = Debug;
+		};
+		B88ABBB52F30154E0013E3F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SN97M28K4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = nieulssss.NikeStoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NikeStore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B88ABB842F3015470013E3F7 /* Build configuration list for PBXProject "NikeStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88ABBAB2F30154E0013E3F7 /* Debug */,
+				B88ABBAC2F30154E0013E3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88ABBAD2F30154E0013E3F7 /* Build configuration list for PBXNativeTarget "NikeStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88ABBAE2F30154E0013E3F7 /* Debug */,
+				B88ABBAF2F30154E0013E3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88ABBB02F30154E0013E3F7 /* Build configuration list for PBXNativeTarget "NikeStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88ABBB12F30154E0013E3F7 /* Debug */,
+				B88ABBB22F30154E0013E3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B88ABBB32F30154E0013E3F7 /* Build configuration list for PBXNativeTarget "NikeStoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B88ABBB42F30154E0013E3F7 /* Debug */,
+				B88ABBB52F30154E0013E3F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B88ABB812F3015470013E3F7 /* Project object */;
+}
