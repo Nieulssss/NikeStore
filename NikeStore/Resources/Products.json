@@ -1,0 +1,38 @@
+{
+  "shoes": [
+    {
+      "id": "550e8400-e29b-41d4-a716-446655440000",
+      "title": "Air Force 1 '07",
+      "description": "Le faste réside dans les détails. Cette icône du basketball associe cuir impeccable et détails audacieux.",
+      "price": 119.99,
+      "shoeSize": "42",
+      "color": "Blanc"
+    },
+    {
+      "id": "67af4512-c21a-4f9a-8c11-998877665544",
+      "title": "Air Max Pulse",
+      "description": "Inspirée de la scène musicale londonienne, la Air Max Pulse apporte une touche underground.",
+      "price": 159.99,
+      "shoeSize": "44",
+      "color": "Noir/Anthracite"
+    }
+  ],
+  "shirts": [
+    {
+      "id": "77bc1234-d123-4444-a1a1-223344556677",
+      "title": "Nike Sportswear Tech Fleece",
+      "description": "Notre Fleece léger premium, lisse à l'intérieur comme à l'extérieur, vous offre une chaleur optimale.",
+      "price": 94.99,
+      "size": "L",
+      "cut": "Slim Fit"
+    },
+    {
+      "id": "12ab34cd-56ef-78gh-90ij-klmnopqrstuv",
+      "title": "Nike Dri-FIT Ready",
+      "description": "Haut de fitness anti-transpirant conçu pour toutes vos activités préférées.",
+      "price": 39.99,
+      "size": "M",
+      "cut": "Standard Fit"
+    }
+  ]
+}

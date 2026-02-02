@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Shoe: Product, Identifiable{
-    var id = UUID()
+struct Shoe: Product, Identifiable, Codable{
+    var id: String
     var title: String
     var description: String
     var price: Double

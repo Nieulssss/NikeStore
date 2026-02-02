@@ -10,6 +10,10 @@
 		B856F42A2F30E13B006B7ABA /* Shirt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856F4292F30E13B006B7ABA /* Shirt.swift */; };
 		B856F4332F30E344006B7ABA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856F4322F30E344006B7ABA /* Product.swift */; };
 		B856F4352F30E352006B7ABA /* Shoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856F4342F30E352006B7ABA /* Shoe.swift */; };
+		B856F4372F30E42C006B7ABA /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856F4362F30E42C006B7ABA /* ProductListView.swift */; };
+		B856F43A2F30E4EC006B7ABA /* Products.json in Resources */ = {isa = PBXBuildFile; fileRef = B856F4392F30E4EC006B7ABA /* Products.json */; };
+		B856F43F2F3126C8006B7ABA /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856F43E2F3126C8006B7ABA /* ProductListViewModel.swift */; };
+		B856F4412F3129B4006B7ABA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B856F4402F3129B4006B7ABA /* DataService.swift */; };
 		B88ABB8D2F3015470013E3F7 /* NikeStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABB8C2F3015470013E3F7 /* NikeStoreApp.swift */; };
 		B88ABB8F2F3015470013E3F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABB8E2F3015470013E3F7 /* ContentView.swift */; };
 		B88ABB912F30154D0013E3F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88ABB902F30154D0013E3F7 /* Assets.xcassets */; };
@@ -40,6 +44,10 @@
 		B856F4292F30E13B006B7ABA /* Shirt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Shirt.swift; path = NikeStore/Models/Shirt.swift; sourceTree = SOURCE_ROOT; };
 		B856F4322F30E344006B7ABA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		B856F4342F30E352006B7ABA /* Shoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shoe.swift; sourceTree = "<group>"; };
+		B856F4362F30E42C006B7ABA /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		B856F4392F30E4EC006B7ABA /* Products.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Products.json; sourceTree = "<group>"; };
+		B856F43E2F3126C8006B7ABA /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		B856F4402F3129B4006B7ABA /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B88ABB892F3015470013E3F7 /* NikeStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NikeStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88ABB8C2F3015470013E3F7 /* NikeStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreApp.swift; sourceTree = "<group>"; };
 		B88ABB8E2F3015470013E3F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +95,22 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		B856F4382F30E4C2006B7ABA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B856F4392F30E4EC006B7ABA /* Products.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B856F43B2F30E54D006B7ABA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B856F4402F3129B4006B7ABA /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		B88ABB802F3015470013E3F7 = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +134,8 @@
 		B88ABB8B2F3015470013E3F7 /* NikeStore */ = {
 			isa = PBXGroup;
 			children = (
+				B856F43B2F30E54D006B7ABA /* Services */,
+				B856F4382F30E4C2006B7ABA /* Resources */,
 				B856F42B2F30E2E7006B7ABA /* Models */,
 				B8BD28E22F3020C500FD53CA /* ViewModels */,
 				B88ABBB72F301C6C0013E3F7 /* Views */,
@@ -149,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				B88ABB8E2F3015470013E3F7 /* ContentView.swift */,
+				B856F4362F30E42C006B7ABA /* ProductListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,6 +183,7 @@
 		B8BD28E22F3020C500FD53CA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				B856F43E2F3126C8006B7ABA /* ProductListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -266,6 +294,7 @@
 			files = (
 				B88ABB942F30154D0013E3F7 /* Preview Assets.xcassets in Resources */,
 				B88ABB912F30154D0013E3F7 /* Assets.xcassets in Resources */,
+				B856F43A2F30E4EC006B7ABA /* Products.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,11 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B856F4372F30E42C006B7ABA /* ProductListView.swift in Sources */,
 				B856F42A2F30E13B006B7ABA /* Shirt.swift in Sources */,
 				B856F4332F30E344006B7ABA /* Product.swift in Sources */,
 				B88ABB8F2F3015470013E3F7 /* ContentView.swift in Sources */,
 				B856F4352F30E352006B7ABA /* Shoe.swift in Sources */,
+				B856F43F2F3126C8006B7ABA /* ProductListViewModel.swift in Sources */,
 				B88ABB8D2F3015470013E3F7 /* NikeStoreApp.swift in Sources */,
+				B856F4412F3129B4006B7ABA /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
