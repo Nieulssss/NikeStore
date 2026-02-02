@@ -14,6 +14,7 @@
 		B88ABB9E2F30154E0013E3F7 /* NikeStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABB9D2F30154E0013E3F7 /* NikeStoreTests.swift */; };
 		B88ABBA82F30154E0013E3F7 /* NikeStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABBA72F30154E0013E3F7 /* NikeStoreUITests.swift */; };
 		B88ABBAA2F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88ABBA92F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift */; };
+		B8BD28E42F30216500FD53CA /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8BD28E32F30216500FD53CA /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		B88ABBA32F30154E0013E3F7 /* NikeStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NikeStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88ABBA72F30154E0013E3F7 /* NikeStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreUITests.swift; sourceTree = "<group>"; };
 		B88ABBA92F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikeStoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B8BD28E32F30216500FD53CA /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +96,10 @@
 		B88ABB8B2F3015470013E3F7 /* NikeStore */ = {
 			isa = PBXGroup;
 			children = (
+				B8BD28E22F3020C500FD53CA /* ViewModels */,
+				B8BD28E12F3020BB00FD53CA /* Models */,
+				B88ABBB72F301C6C0013E3F7 /* Views */,
 				B88ABB8C2F3015470013E3F7 /* NikeStoreApp.swift */,
-				B88ABB8E2F3015470013E3F7 /* ContentView.swift */,
 				B88ABB902F30154D0013E3F7 /* Assets.xcassets */,
 				B88ABB922F30154D0013E3F7 /* Preview Content */,
 			);
@@ -125,6 +129,29 @@
 				B88ABBA92F30154E0013E3F7 /* NikeStoreUITestsLaunchTests.swift */,
 			);
 			path = NikeStoreUITests;
+			sourceTree = "<group>";
+		};
+		B88ABBB72F301C6C0013E3F7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B88ABB8E2F3015470013E3F7 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8BD28E12F3020BB00FD53CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8BD28E32F30216500FD53CA /* Product.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B8BD28E22F3020C500FD53CA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			files = (
 				B88ABB8F2F3015470013E3F7 /* ContentView.swift in Sources */,
 				B88ABB8D2F3015470013E3F7 /* NikeStoreApp.swift in Sources */,
+				B8BD28E42F30216500FD53CA /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
