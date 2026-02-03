@@ -12,6 +12,7 @@ struct Shirt: Product, Identifiable, Codable {
     var title: String
     var description: String
     var price: Double
+    var image: String
     
     var size: String
     var cut: String

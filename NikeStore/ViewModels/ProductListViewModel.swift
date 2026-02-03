@@ -10,6 +10,7 @@ import Foundation
 class ProductListViewModel: ObservableObject {
     @Published var shoes: [Shoe] = []
     @Published var shirts: [Shirt] = []
+    @Published var products: [any Product] = []
     
     private let dataService = DataService()
         
@@ -21,6 +22,7 @@ class ProductListViewModel: ObservableObject {
             if let data = dataService.loadProducts() {
                 self.shoes = data.shoes
                 self.shirts = data.shirts
+                self.products = shoes + shirts
             }
         }
 }

@@ -7,9 +7,10 @@
 
 import Foundation
 
-protocol Product {
+protocol Product: Identifiable {
     var id: String {get}
     var title: String {get}
     var description: String {get}
     var price: Double {get}
+    var image: String {get}
 }

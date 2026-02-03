@@ -9,14 +9,24 @@ import SwiftUI
 
 struct ProductListView: View {
     @StateObject var viewModel = ProductListViewModel()
+    let columns = [
+            GridItem(.flexible()),
+            GridItem(.flexible())
+        ]
     
     var body: some View {
-        VStack{
-            List {
-                ForEach(viewModel.shoes) {shoe in
-                    Text(shoe.title)
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: columns, spacing: 20) {
+                    ForEach(viewModel.products, id: \.id) { product in
+                        NavigationLink(destination: ProductView(product: product)) {
+                            ProductCard(product: product)
+                        }
+                    }
                 }
+                .padding()
             }
+            .navigationTitle("Nike Store")
         }
     }
 }
