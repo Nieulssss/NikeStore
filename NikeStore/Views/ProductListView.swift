@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct ProductListView: View {
-    @StateObject var viewModel = ProductListViewModel()
+    let category: String
+    @StateObject var viewModel: ProductListViewModel
+    init(category: String){
+        self.category = category
+        _viewModel = StateObject(wrappedValue: ProductListViewModel(category: category))
+    }
+    
     let columns = [
             GridItem(.flexible()),
             GridItem(.flexible())
@@ -33,6 +39,6 @@ struct ProductListView: View {
 
 struct ProductListView_Previews: PreviewProvider {
     static var previews: some View {
-        ProductListView()
+        ProductListView(category: "Shoe")
     }
 }
